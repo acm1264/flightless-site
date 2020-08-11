@@ -2,14 +2,14 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'baseUrl' => 'https://flightless-game.netlify.app',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'Flightless',
+        'description' => 'A work-in-progress Adventure RPG Game!',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
+        'name' => 'Andrew Maurice',
         'twitter' => 'johndoe',
         'github' => 'johndoe',
     ],
@@ -19,8 +19,8 @@ return [
         'disqus' => 'artisanstatic',
         'formcarry' => 'XXXXXXXXXXXX',
         'cloudinary' => [
-            'cloudName' => 'artisanstatic',
-            'apiKey' => '365895137117119',
+            'cloudName' => 'dabid9eo5',
+            'apiKey' => '936558176835535',
         ],
     ],
     'collections' => [
