@@ -20,7 +20,7 @@
     <section>
         <header>
             <nav>
-                <strong>{{ $page->site->title }}</strong><br>
+                <strong style ="font-size:36px;">{{ $page->site->title }}</strong><br><br>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/posts">Posts</a></li>
@@ -30,7 +30,7 @@
             </nav>
         </header>
 
-        <article>
+        <article id="mainContent">
             <section>
                 @yield('content')
             </section>

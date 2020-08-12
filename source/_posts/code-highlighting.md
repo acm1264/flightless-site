@@ -36,7 +36,7 @@ Go to `source/_assets/sass/main.scss` to change the theme.
 html, body {
     background-color: #fff;
     color: #636b6f;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Verdana', sans-serif;
     font-weight: 100;
     height: 100vh;
     margin: 0;
