@@ -3,10 +3,10 @@
 @section('title', 'Posts')
 
 @section('content')
-    <h1>Posts</h1>
+    <h1>Dev Blog Posts</h1>
 
     <ul>
-        @forelse ($posts->sortBy('date') as $post)
+        @forelse ($posts->sortBy('date', [], true) as $post)
             <li>
                 <a href="{{ $post->getPath() }}">{{ $post->title }}</a>
                 <small>{{ $post->prettyDate() }}</small>

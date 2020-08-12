@@ -9,14 +9,14 @@ return [
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'Andrew Maurice',
+        'name' => 'Flightless Team',
         'twitter' => 'johndoe',
         'github' => 'johndoe',
     ],
     'services' => [
         'cmsVersion' => '2.10.52',
         'analytics' => 'UA-XXXXX-Y',
-        'disqus' => 'artisanstatic',
+        'disqus' => 'flightless',
         'formcarry' => 'XXXXXXXXXXXX',
         'cloudinary' => [
             'cloudName' => 'dabid9eo5',
